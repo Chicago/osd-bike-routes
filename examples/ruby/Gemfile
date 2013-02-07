@@ -1,0 +1,5 @@
+source :rubygems
+
+gem "rgeo"
+gem "rgeo-geojson"
+gem "json"

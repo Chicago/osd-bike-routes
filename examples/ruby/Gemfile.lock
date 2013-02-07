@@ -1,0 +1,15 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    json (1.7.3)
+    rgeo (0.3.20)
+    rgeo-geojson (0.2.3)
+      rgeo (>= 0.3.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  json
+  rgeo
+  rgeo-geojson
