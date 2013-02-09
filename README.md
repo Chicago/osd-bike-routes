@@ -1,6 +1,7 @@
 README
 ======
 The City of Chicago is releasing selected datasets from the [data portal](http://data.cityofchicago.org 'Chicago Data Portal') under the MIT License (see below). This repository contains:
+
 1. Data in a GeoJSON format.
 2. Examples of importing data into R, Python, and Ruby.
 3. Instructions to transform data from the data portal to data in the repository.

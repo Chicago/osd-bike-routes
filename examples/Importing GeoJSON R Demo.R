@@ -16,9 +16,9 @@ library(rgdal)	# Import data into a Spatial Data Frame in R
 library(ggplot2)	# Transform data from Shapefile to Data Frame
 
 # Import data to Spatial Dataframe	
-ogrInfo("data\\Transportation.json", layer="OGRGeoJSON")
+ogrInfo("data\\Bikeroutes.json", layer="OGRGeoJSON")
 
-bikeroutes.shapefile <- readOGR(dsn="data\\Transportation.json", layer="OGRGeoJSON", p4s="+proj=tmerc +ellps=WGS84") # Imports data. Replace PATH\\TO with actual file path (e.g., C:\\Users\\username\\downloads)
+bikeroutes.shapefile <- readOGR(dsn="data\\Bikeroutes.json", layer="OGRGeoJSON", p4s="+proj=tmerc +ellps=WGS84") # Imports data. Replace PATH\\TO with actual file path (e.g., C:\\Users\\username\\downloads)
 
 head(bikeroutes.shapefile) # Inspect the data structure.
 
