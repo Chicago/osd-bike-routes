@@ -35,8 +35,8 @@ Instructions:
 
 4. Import data to a spatial dataframe. City data is typically created using the transverse Mercator projection.
     ```r
-    ogrInfo("data\\Bikeroutes.json", layer="OGRGeoJSON")
-    bikeroutes.shapefile <- readOGR(dsn="data\\Bikeroutes.json", layer="OGRGeoJSON", p4s="+proj=tmerc +ellps=WGS84")
+    ogrInfo("data\\Bikeroutes.geojson", layer="OGRGeoJSON")
+    bikeroutes.shapefile <- readOGR(dsn="data\\Bikeroutes.geojson", layer="OGRGeoJSON", p4s="+proj=tmerc +ellps=WGS84")
     ```
 
 5. Ensure the map works:
